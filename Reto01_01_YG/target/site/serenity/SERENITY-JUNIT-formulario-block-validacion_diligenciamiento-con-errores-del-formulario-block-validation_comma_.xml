@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Formulario Block Validacion" skipped="0" tests="1" time="31.37" timestamp="2020-05-10T16:39:40.525-05:00[America/Bogota]"><testcase name="Diligenciamiento con errores del formulario Block Validation,"><failure message="&#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;</failure><system-err>
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;&#13;
+com.choucair.formacion.pageobjects.ColorlibFormValidationPage.form_con_errores(ColorlibFormValidationPage.java:101)&#13;
+com.choucair.formacion.steps.colorlibFormValidationSteps.verificar_ingreso_datos_formulario_con_errores(colorlibFormValidationSteps.java:31)&#13;
+com.choucair.formacion.definition.BlockValidationDefinition.verificar_que_se_presente_Globo_Informativo_de_validación(BlockValidationDefinition.java:54)&#13;
+✽.Then Verificar que se presente Globo Informativo de validación(src/test/resources/features/Colorlib/Forms/BlockValidation.feature:45)&#13;
+</system-err></testcase></testsuite>
